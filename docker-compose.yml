@@ -1,0 +1,37 @@
+services:
+  mysql:
+    image: mysql:8.4
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: klh_library
+      MYSQL_USER: klh_library
+      MYSQL_PASSWORD: change-me
+      MYSQL_ROOT_PASSWORD: change-root-me
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-pchange-root-me"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    restart: unless-stopped
+    environment:
+      APP_ENV: production
+      SECRET_KEY: replace-with-a-long-random-secret
+      DATABASE_URL: mysql+pymysql://klh_library:change-me@mysql:3306/klh_library
+      CORS_ORIGINS: http://localhost:5173
+    ports:
+      - "5000:5000"
+    depends_on:
+      mysql:
+        condition: service_healthy
+
+volumes:
+  mysql_data:

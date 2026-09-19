@@ -1,0 +1,68 @@
+[
+  {
+    "id": "fn-301",
+    "loanId": "ln-103",
+    "bookId": "bk-3",
+    "bookTitle": "Deep Learning",
+    "userId": "usr-student-1",
+    "userName": "Alex Vance",
+    "dueDate": "2024-03-05",
+    "daysOverdue": 7,
+    "amount": 3.5,
+    "status": "unpaid"
+  },
+  {
+    "id": "fn-302",
+    "loanId": "ln-104",
+    "bookId": "bk-9",
+    "bookTitle": "Clean Architecture: A Craftsman's Guide",
+    "userId": "usr-student-1",
+    "userName": "Alex Vance",
+    "dueDate": "2024-01-20",
+    "returnDate": "2024-01-24",
+    "daysOverdue": 4,
+    "amount": 2,
+    "status": "paid",
+    "paidDate": "2024-01-24",
+    "paymentMethod": "Campus Card (Stripe)"
+  },
+  {
+    "id": "fn-303",
+    "loanId": "ln-107",
+    "bookId": "bk-12",
+    "bookTitle": "Artificial Intelligence: A Modern Approach",
+    "userId": "usr-student-3",
+    "userName": "Marcus Thorne",
+    "dueDate": "2024-03-01",
+    "daysOverdue": 14,
+    "amount": 7,
+    "status": "unpaid"
+  },
+  {
+    "id": "fn-304",
+    "loanId": "ln-109",
+    "bookId": "bk-8",
+    "bookTitle": "Microeconomic Theory",
+    "userId": "usr-student-5",
+    "userName": "Julian Hayes",
+    "dueDate": "2024-02-05",
+    "daysOverdue": 37,
+    "amount": 18.5,
+    "status": "unpaid"
+  },
+  {
+    "id": "fn-305",
+    "loanId": "ln-110",
+    "bookId": "bk-2",
+    "bookTitle": "Introduction to Algorithms (CLRS)",
+    "userId": "usr-student-2",
+    "userName": "Sophia Chen",
+    "dueDate": "2024-01-15",
+    "returnDate": "2024-01-18",
+    "daysOverdue": 3,
+    "amount": 1.5,
+    "status": "paid",
+    "paidDate": "2024-01-18",
+    "paymentMethod": "Debit Card"
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "res-201",
+    "bookId": "bk-4",
+    "bookTitle": "Principles of Quantum Mechanics",
+    "bookCover": "https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&q=80&w=600",
+    "userId": "usr-student-1",
+    "userName": "Alex Vance",
+    "studentId": "STU-2024-8891",
+    "reservationDate": "2024-03-02",
+    "expiryDate": "2024-03-16",
+    "queuePosition": 1,
+    "status": "active"
+  },
+  {
+    "id": "res-202",
+    "bookId": "bk-1",
+    "bookTitle": "Designing Data-Intensive Applications",
+    "bookCover": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&q=80&w=600",
+    "userId": "usr-student-1",
+    "userName": "Alex Vance",
+    "studentId": "STU-2024-8891",
+    "reservationDate": "2024-02-15",
+    "expiryDate": "2024-02-28",
+    "queuePosition": 1,
+    "status": "fulfilled"
+  },
+  {
+    "id": "res-203",
+    "bookId": "bk-4",
+    "bookTitle": "Principles of Quantum Mechanics",
+    "bookCover": "https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&q=80&w=600",
+    "userId": "usr-student-3",
+    "userName": "Marcus Thorne",
+    "studentId": "STU-2022-7729",
+    "reservationDate": "2024-03-04",
+    "expiryDate": "2024-03-18",
+    "queuePosition": 2,
+    "status": "active"
+  },
+  {
+    "id": "res-204",
+    "bookId": "bk-3",
+    "bookTitle": "Deep Learning",
+    "bookCover": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&q=80&w=600",
+    "userId": "usr-student-4",
+    "userName": "Elena Rostova",
+    "studentId": "STU-2024-1092",
+    "reservationDate": "2024-03-06",
+    "expiryDate": "2024-03-20",
+    "queuePosition": 1,
+    "status": "ready"
+  }
+]
